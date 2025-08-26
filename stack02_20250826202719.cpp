@@ -73,6 +73,10 @@ int main()
     s2.push2(40);
     s1.pop1();
     s2.pop2();
+    cout << "Popped from stack1: " << s1.pop1() << endl;
+    cout << "Popped from stack2: " << s2.pop2() << endl;
+    
     
     return 0;
+
 }
